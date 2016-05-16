@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="Lib/appengine-api-1.0-sdk-1.9.23.jar"/>
+	<classpathentry kind="lib" path="Lib/appengine-api-labs.jar"/>
+	<classpathentry kind="lib" path="Lib/appengine-endpoints-deps.jar"/>
+	<classpathentry kind="lib" path="Lib/appengine-endpoints.jar"/>
+	<classpathentry kind="lib" path="Lib/appengine-jsr107cache-1.9.23.jar"/>
+	<classpathentry kind="lib" path="Lib/datanucleus-appengine-1.0.10.final.jar"/>
+	<classpathentry kind="lib" path="Lib/datanucleus-core-1.1.5.jar"/>
+	<classpathentry kind="lib" path="Lib/datanucleus-jpa-1.1.5.jar"/>
+	<classpathentry kind="lib" path="Lib/geronimo-jpa_3.0_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="Lib/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="Lib/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="Lib/jdo2-api-2.3-eb.jar"/>
+	<classpathentry kind="lib" path="Lib/jsr107cache-1.1.jar"/>
+	<classpathentry kind="lib" path="Lib/restygwt-2.0.3.jar"/>
+	<classpathentry kind="lib" path="Lib/com.netapp.gwt.module.models.jar"/>
+	<classpathentry kind="lib" path="Lib/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/serverModel.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

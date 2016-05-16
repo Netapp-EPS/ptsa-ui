@@ -1,0 +1,2 @@
+serviceClass: com.netapp.pbt.client.helper.GUIService
+path: 02349D904A0CB47224457685F71824C5.gwt.rpc

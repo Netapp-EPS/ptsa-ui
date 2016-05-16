@@ -1,0 +1,3 @@
+# Module problem_troubleshooter
+# RPC service class, partial path of RPC policy file
+com.netapp.pbt.client.helper.GUIService, 02349D904A0CB47224457685F71824C5.gwt.rpc

@@ -1,0 +1,54 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1367632 bytes for Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:328), pid=25684, tid=24904
+#
+# JRE version: 7.0_21-b11
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.21-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000077ce800):  JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=24904, stack(0x0000000008f60000,0x0000000009060000)]
+
+Stack: [0x0000000008f60000,0x0000000009060000]
+
+Current CompileTask:
+C2:  21387 1401             com.google.gwt.dev.jjs.impl.ControlFlowAnalyzer$RescueVisitor::rescue (156 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000000000b1ce000 JavaThread "In-process PermutationWorker 0" [_thread_in_Java, id=26484, stack(0x000000000bf60000,0x000000000c060000)]
+  0x000000000b1cc800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=13604, stack(0x000000000d4b0000,0x000000000d5b0000)]
+  0x000000000b1cb000 JavaThread "qtp533518349-39" [_thread_blocked, id=23824, stack(0x000000000d7f0000,0x000000000d8f0000)]
+  0x000000000b1ca800 JavaThread "qtp533518349-38" [_thread_blocked, id=27748, stack(0x000000000d5c0000,0x000000000d6c0000)]
+  0x000000000b1c9800 JavaThread "qtp533518349-37" [_thread_blocked, id=28216, stack(0x000000000d370000,0x000000000d470000)]
+  0x0000000009bb2800 JavaThread "qtp533518349-36" [_thread_blocked, id=25796, stack(0x000000000d190000,0x000000000d290000)]
+  0x0000000009bb1800 JavaThread "qtp533518349-35" [_thread_blocked, id=26124, stack(0x000000000cfd0000,0x000000000d0d0000)]
+  0x0000000009bb1000 JavaThread "qtp533518349-34" [_thread_blocked, id=24912, stack(0x000000000ae80000,0x000000000af80000)]
+  0x0000000009bb0000 JavaThread "qtp533518349-33 Acceptor0 SelectChannelConnector@127.0.0.1:8888" [_thread_in_native, id=25680, stack(0x000000000ced0000,0x000000000cfd0000)]
+  0x0000000009baf800 JavaThread "qtp533518349-32 Selector0" [_thread_in_native, id=28620, stack(0x000000000ccd0000,0x000000000cdd0000)]
+  0x0000000009bae800 JavaThread "HashSessionScavenger-1" daemon [_thread_blocked, id=28600, stack(0x000000000cba0000,0x000000000cca0000)]
+  0x0000000009bae000 JavaThread "qtp177681054-30" [_thread_blocked, id=28180, stack(0x000000000ca70000,0x000000000cb70000)]
+  0x0000000009bad000 JavaThread "qtp177681054-29" [_thread_blocked, id=25156, stack(0x000000000c850000,0x000000000c950000)]
+  0x0000000009bac800 JavaThread "qtp177681054-28" [_thread_blocked, id=27228, stack(0x000000000c6d0000,0x000000000c7d0000)]
+  0x0000000009bab800 JavaThread "qtp177681054-27" [_thread_blocked, id=24332, stack(0x000000000a2b0000,0x000000000a3b0000)]
+  0x0000000009cd2000 JavaThread "qtp177681054-26 Selector0" [_thread_in_native, id=20396, stack(0x000000000ad20000,0x000000000ae20000)]
+  0x0000000009cd1000 JavaThread "qtp177681054-25" [
